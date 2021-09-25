@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+    kiwi-actuation:
+        image: opendlv-actuation-kiwi-steering-cpp
+        restart: on-failure
+        network_mode: "host"
+        command: "/usr/bin/opendlv-logic-test-kiwi --cid=111 --freq=10"
