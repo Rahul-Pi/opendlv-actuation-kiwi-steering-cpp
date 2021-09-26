@@ -1,5 +1,17 @@
 # opendlv-actuation-kiwi-steering-cpp
-How to get the program running:
+An OpenDLV microservices program developed for an autonomous robot to detect cones thereby the path using Aim point method. 
+
+OpenDLV is a modern open source software developed by [Chalmers Revere](https://github.com/chalmers-revere/opendlv) for self-driving vehicles. 
+
+[Kiwi](https://github.com/chalmers-revere/opendlv-tutorial-kiwi) is miniature robotic vehicle platform from Chalmers Revere.
+
+This is a part of the TME290 - Autonomous Robots course.
+
+Two of the other microservices used in this project and need to run alonside this are [opendlv-perception-cone-detection-cpp](https://github.com/Rahul-Pi/opendlv-perception-cone-detection-cpp) and [opendlv-perception-kiwi-detection-cpp](https://github.com/Rahul-Pi/opendlv-perception-kiwi-detection-cpp)
+
+# How to get the program running:
+Pre-requisite:
+1. Docker must be installed.
 
 ################################### Part A: ##############################################
 
